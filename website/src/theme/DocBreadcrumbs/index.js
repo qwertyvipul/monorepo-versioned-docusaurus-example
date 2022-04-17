@@ -14,6 +14,8 @@ import styles from './styles.module.css';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl'; // TODO move to design system folder
+import DocsVersionDropdownNavbarItem from '../DocsVersionDropdownNavbarItem';
+import { useActivePlugin } from '@docusaurus/plugin-content-docs/client';
 
 function BreadcrumbsItemLink({ children, href }) {
     const className = 'breadcrumbs__link';
@@ -69,6 +71,8 @@ export default function DocBreadcrumbs() {
         return null;
     }
 
+    const pluginId = useActivePlugin().pluginId;
+
     return (
         <nav
             className={clsx(
@@ -82,6 +86,11 @@ export default function DocBreadcrumbs() {
                 itemScope
                 itemType="https://schema.org/BreadcrumbList"
             >
+                <DocsVersionDropdownNavbarItem
+                    docsPluginId={pluginId}
+                    dropdownItemsBefore={[]}
+                    dropdownItemsAfter={[]}
+                />
                 {homePageRoute && <HomeBreadcrumbItem />}
                 {breadcrumbs.map((item, idx) => (
                     <BreadcrumbsItem
