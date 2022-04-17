@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Site',
+    title: 'Monorepo Version Docusaurus Example',
     tagline: 'Dinosaurs are cool',
     url: 'https://qwertyvipul.github.io',
     baseUrl: '/monorepo-versioned-docusaurus-example/',
@@ -25,13 +25,13 @@ const config = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     // Please change this to your repo.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/qwertyvipul/monorepo-versioned-docusaurus-example',
                 },
                 blog: {
                     showReadingTime: true,
                     // Please change this to your repo.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/qwertyvipul/monorepo-versioned-docusaurus-example',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -91,7 +91,7 @@ const config = {
                     { to: '/project2', label: 'Project 2', position: 'left' },
                     { to: '/project3', label: 'Project 3', position: 'left' },
                     {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/qwertyvipul/monorepo-versioned-docusaurus-example',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -99,48 +99,8 @@ const config = {
             },
             footer: {
                 style: 'dark',
-                links: [
-                    {
-                        title: 'Docs',
-                        items: [
-                            {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
-                            },
-                        ],
-                    },
-                ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                links: [],
+                copyright: `Copyright © ${new Date().getFullYear()} | Vipul Sharma`,
             },
             prism: {
                 theme: lightCodeTheme,
