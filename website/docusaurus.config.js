@@ -8,8 +8,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
     title: 'My Site',
     tagline: 'Dinosaurs are cool',
-    url: 'https://your-docusaurus-test-site.com',
-    baseUrl: '/',
+    url: 'https://qwertyvipul.github.io/monorepo-versioned-docusaurus-example/',
+    baseUrl:
+        'https://qwertyvipul.github.io/monorepo-versioned-docusaurus-example/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
