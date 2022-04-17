@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[3112],{4532:function(e){e.exports=JSON.parse('{"allTagsPath":"https://qwertyvipul.github.io/monorepo-versioned-docusaurus-example/blog/tags","name":"hello","count":2,"permalink":"https://qwertyvipul.github.io/monorepo-versioned-docusaurus-example/blog/tags/hello"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2603],{1586:function(e){e.exports=JSON.parse('{"allTagsPath":"/monorepo-versioned-docusaurus-example/blog/tags","name":"hello","count":2,"permalink":"/monorepo-versioned-docusaurus-example/blog/tags/hello"}')}}]);
